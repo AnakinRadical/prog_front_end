@@ -9,13 +9,12 @@ h1{
     background-image: url(/img/sobre-background.jpg);
     padding: 10px;
 }
-
 h2{
     border-bottom: 2px groove #333333;
     margin-top: 30px;
 }
 figure{
-    background-color: #F2EDED;
+    background-color: #f2eded;
     border: 1px solid #ccc;
     text-align: center;
     padding: 15px;
