@@ -1,2 +1,2 @@
-# prog_front_end
+# Programação Front-End
 Laboratórios da disciplina de programação Front-End.
