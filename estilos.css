@@ -5,12 +5,18 @@
     padding-top: 8px;
     text-align: right;
     width: 140px;
-    
+    position: relative;
+    left: 100%;
+    top: -90%;
+}
+.menu-opcoes{
+    position: relative;
+    left: 50%;
+    bottom: 100px;
 }
 .menu-opcoes li{
     font-size: 15px;
-    display: inline-block;
-    margin-left: 20px;
+    display: inline-block;  
 }
 .menu-opcoes a{
     color: #003366;
