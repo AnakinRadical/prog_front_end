@@ -20,10 +20,6 @@
     display: inline-block;
     margin-left: 20px;
 }
-.menu-opcoes ul{
-    font-size: 15px;
-    list-style: none;
-}
 .menu-opcoes a{
     color: #003366;
 }
