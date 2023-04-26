@@ -21,6 +21,13 @@
 .menu-opcoes a{
     color: #003366;
 }
+.menu-opcoes a:hover{
+    color: #007dc6;
+}
+.menu-opcoes a:active{
+    color: red;
+}
+
 body{
     color: #333333;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande',  sans-serif;
@@ -29,14 +36,17 @@ body{
 margin: 0 auto;
 width: 940px;
 }
-.busca, .menu-departamentos{
+.busca, 
+.menu-departamentos{
     background-color: #dcdcdc;
     font-weight: bold;
     text-transform: uppercase;
     margin-right: 10px;
     width: 230px;
 }
-.busca h2, .busca form, .menu-departamentos h2{
+.busca h2, 
+.busca form, 
+.menu-departamentos h2{
     margin: 10px;
 }
 .menu-departamentos li{
@@ -174,4 +184,20 @@ footer .container{
 .social li{
     margin-left: 25px;
     float: left;
+}
+
+.menu-departamentos li ul{
+    display: none;
+}
+
+.menu-departamentos li:hover ul{
+    display: block;
+}
+
+.menu-departamentos ul ul li{
+    background-color: #dcdcdc;
+}
+
+.menu-departamentos li li a::before{
+    content: '- ';
 }
