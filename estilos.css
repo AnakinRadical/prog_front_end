@@ -77,6 +77,8 @@ width: 940px;
 	margin: 10px 0;
 	padding: 10px;
 	width: 445px;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 4px #999;
 }
 
 .novidades {
@@ -110,11 +112,13 @@ width: 940px;
 }
 
 .novidades {
-	background-color: #f5dcdc;
+	background: linear-gradient(#f5dcdc , #bebef4);
+    float: left;
 }
 
 .mais-vendidos {
-	background-color: #dcdcf5;
+	background: linear-gradient(#bebef4 , #f5dcdc);
+    float: right;
 }
 
 .painel h2 {
@@ -122,6 +126,7 @@ width: 940px;
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
 }
 
 .painel a {
@@ -139,13 +144,6 @@ width: 940px;
 	padding-bottom: 10px;
 }
 
-.novidades {
-	background-color: #f5dcdc;
-}
-
-.mais-vendidos {
-	background-color: #dcdcf5;
-}
 
 .social a{
     height: 32px;
