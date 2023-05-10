@@ -53,6 +53,7 @@ width: 940px;
     background-color: white;
     margin-bottom: 1px;
     padding: 5px 10px;
+    list-style: none;
 }
 .menu-departamentos a{
     color: #333333;
