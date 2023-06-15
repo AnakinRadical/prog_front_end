@@ -78,3 +78,9 @@
 		width: 69%;
 	}
 }
+
+.pause, 
+.play {
+	display: none;
+}
+
